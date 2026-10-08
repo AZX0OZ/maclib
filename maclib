@@ -1573,7 +1573,8 @@ function MacLib:Window(Settings)
 		sectionTabSwitchers.BackgroundTransparency = 1
 		sectionTabSwitchers.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		sectionTabSwitchers.BorderSizePixel = 0
-		sectionTabSwitchers.Size = UDim2.fromScale(1, 1)
+		sectionTabSwitchers.Size = UDim2.fromScale(1, 0)
+		sectionTabSwitchers.AutomaticSize = Enum.AutomaticSize.Y
 
 		local uIListLayout1 = Instance.new("UIListLayout")
 		uIListLayout1.Name = "UIListLayout"
